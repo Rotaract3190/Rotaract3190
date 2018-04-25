@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Rotaract 3190</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <h2>Blood donation data type 1</h2>
+  <p>Use the saerch box for testing</p>  
+  <input class="form-control" id="myInput" type="text" placeholder="Search..">
+  <br>
+  <table class="table table-bordered table-striped">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Phone</th>
+        <th>Blood Group</th>
+      </tr>
+    </thead>
+    <tbody id="myTable">
+      <tr>
+        <td>Arun Teja Godavarthi</td>
+        <td>8553788515</td>
+        <td>O+</td>
+      </tr>
+      <tr>
+        <td>Test1</td>
+        <td>8980980980</td>
+        <td>B-</td>
+      </tr>
+      <tr>
+        <td>Test2</td>
+        <td>7987987987</td>
+        <td>AB+</td>
+      </tr>
+      <tr>
+        <td>Test3</td>
+        <td>8990885834</td>
+        <td>O+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+</div>
+
+<script>
+$(document).ready(function(){
+  $("#myInput").on("keyup", function() {
+    var value = $(this).val().toLowerCase();
+    $("#myTable tr").filter(function() {
+      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+    });
+  });
+});
+</script>
+
+</body>
+</html>
