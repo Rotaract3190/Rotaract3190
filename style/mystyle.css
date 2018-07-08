@@ -371,7 +371,7 @@ float: right;
 	src:url(../source/fonts/OpenSans-Regular.ttf) format("truetype");
 }
 .carousel-caption>h2>p{
-font-family: :'OpenSans Regular';
+font-family: 'OpenSans Regular';
 font-size: 15.88pt;
 }
 .carousel-caption {
