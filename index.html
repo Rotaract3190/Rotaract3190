@@ -134,7 +134,11 @@
 						<a href="#">Resources</a>
 					</li>
 					<li>
-						<a href="calendar.html">Calendar</a>
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Calendar<span class="caret"></span></a>
+						<ul class="dropdown-menu dropdowncostume">
+							<li><a href="eventform.html">Post event</a></li>
+							<li><a href="calendar.html">District Calendar</a></li>
+						</ul>
 					</li>
 					<a href="donors.html"><button><span class="postnewcar">Blood Bank</span></button></a>				
 				</ul>
@@ -167,11 +171,11 @@
 		</div>
 		
 		<div class="main-events">
-			<div class="m-event main4">
-				<div class="thumb"><p>TOPSAT</p></div>
+			<div class="m-event main3">
+				<div class="thumb"><p></p></div>
 				<div class="context">
-					<div class="lead">TOPSAT<br><button class="maineventbutton"><a href="tel:+91 78298 60055" target="_blank" style="color: white;">Learn More</a></button><br><p style="font-size: 14px; margin-top: 5px">22 JULY 2018</p></div>
-					<div class="para">Training Of Presidents, Secretaries and Treasurers (TOPSAT)</div>
+					<div class="lead">ANVESHANA<br><button class="maineventbutton"><a href="./anveshana/" target="_blank" style="color: white;">Learn More</a></button><br><p style="font-size: 14px; margin-top: 5px">22 JULY 2018</p></div>
+					<div class="para">ANVESHANA - The DLTW (District Leadership Training Workshop)</div>
 				</div>
 			</div>
 			<div class="m-event main1">
@@ -206,14 +210,21 @@
 		<br>
 		<br>
 		<!-- _______________________________News Letter ____________________-->
-		<div class="newslettercontent">
-			<div class="leftside">
-				<img src="image/border.png" alt="border">
-				<h1>NEWSLETTER</h1>
-				<p>Subscribe to the ROTARACT DISTRICT 3190 mailing list to get regular updates of Rotaract District 3190</p>
-			</div>
-			<div class="rightside">
-				<img class="newsimage" src="image/newsletter.jpg" alt="newsletter">
+		<div class="allcontain" id="newsletter"> 
+			<div class="latestcars">
+					<h1 class="text-center">&bullet; NEWSLETTER &bullet;</h1>
+				</div>
+				<section class="bg-light">
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-12 text-center">
+								<h3 class="section-subheading text-muted">Sign-up to receive all new updates</h3>
+							</div>
+						</div>
+					</div>
+				</section>
+				
+			<div class="newsletter">
 				<div class="alert">Thank You</div>
 				<form id="newsletterform">
 					<input type="email" name="mail" id="mail" placeholder="EMAIL" required>
@@ -225,14 +236,14 @@
 		<div class="allcontain">
 			<div class="bottommenu">
 				<div class="bottomlogo">
-					<span class="dotlogo">&bullet;</span><a href="index.html"><img src="image/logo.png" alt="logo1"></a><span class="dotlogo">&bullet;</span>
+					<span class="dotlogo">&laquo;</span><a href="index.html"><img src="image/logo.png" alt="logo1"></a><span class="dotlogo">&raquo;</span>
 				</div>
 				<ul class="nav nav-tabs bottomlinks">
 					<li role="presentation" ><a href="team.html" role="button">ABOUT US</a></li>
 					<li role="presentation"><a href="calendar.html">CALENDAR</a></li>
 					<li role="presentation"><a href="donors.html">BLOOD BANK</a></li>
 					<li role="presentation"><a href="https://blog.rotaract3190.org">WRITE ON BLOG</a></li>
-					<li role="presentation"><a href="index.html">RECEIVE OUR NEWSLETTER</a></li>
+					<li role="presentation"><a href="index.html#newsletter">RECEIVE OUR NEWSLETTER</a></li>
 				</ul>
 				<p>A Step Towards The Change!!!</p>
 				<img src="image/line.png" alt="line"> <br>

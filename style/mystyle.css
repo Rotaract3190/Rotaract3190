@@ -983,118 +983,70 @@ padding-left: 0px;
 }
 /*  -----------------     End Latest Cars Images    ------------------------ */
 /* ------------------ Newsletter Section -----------------------------------*/
-.newslettercontent{
+
+
+.newsletter>form>input{
 	position: relative;
-	width: 100%;
-	height: auto;
-}
-.leftside{
-	position: relative;
-}
-.leftside>img{
-	position: relative;
-	width:51.5%;
-	margin-top: 7%;
-	margin-left: 8.1%;
-	margin-bottom: 7%;
-	z-index: 99;
-}
-@font-face{
-  font-family: "OpenSans Bold";
-  src: url(../source/fonts/OpenSans-Bold.ttf) format("truetype");
-}
-.leftside>h1{
-	font-family: "OpenSans Bold";
-	top:39%;
-	left: 13.2%;
-	position: absolute;
-	font-size: 27px;
-	letter-spacing: 8px;
-	z-index: 100;
-	margin: 0px;
-}
-.leftside>p{
-	position: absolute;
-	font-family: "OpenSans Regular";
-	top:47.5%;
-	left: 13.2%;
-	font-size: 20px;
-	z-index: 100;
-	width: 35%;
-}
-.rightside{
-	position: absolute;
-	top:0;
-	left: 50%;
-	z-index: 1;
-}
-.rightside>img{
-	position: relative;
-	width: 100%;
-	padding-top: 4px;
-	z-index: 1;
-}
-.rightside>form>input{
-	position: absolute;
 	top:34%;
 	left:25%;
 	font-family: "OpenSans-Light";
 	font-size: 26.8px;
-	color:#fff;
+	color:#000;
 	background: none;
 	background-color: none;
 	border-top: none;
 	border-left: none;
 	border-right:none;
-	border-bottom: 1px solid #fff;	
+	border-bottom: 1px solid #000;	
 	border-radius: 0;
 	width: 53%;
 	padding: 0px;
 	z-index: 99;
 }
 #subemail:focus{
-	border-bottom: 1px solid #C7D7E5;
+	border-bottom: 1px solid #2e2626;
 	 box-shadow: inset 0 0px;
 
 	}
 #subemail::-webkit-input-placeholder { /* WebKit, Blink, Edge */
-    color:#fff;
+    color:#000;
  	line-height: 35px;
 }
 #subemail:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-   color:#fff;
+   color:#000;
    opacity:  1;
    line-height: 35px;
 }
 #subemail::-moz-placeholder { /* Mozilla Firefox 19+ */
-   color:#fff;
+   color:#000;
    opacity:  1;
    line-height: 35px;
 }
 #subemail:-ms-input-placeholder { /* Internet Explorer 10-11 */
-   color:#fff;
+   color:#000;
    line-height: 35px;
 }
 
-.rightside>form>button{
-	position: absolute;
+.newsletter>form>button{
+	position: relative;
 	top:45%;
 	left:25%;
 	z-index: 99;
 	background: none;
-	border: 1px solid #fff;
+	border: 1px solid #000;
 	font-family: "OpenSans-Light";
 	font-size: 31.5px;
-	color: #fff;
+	color: #000;
 	letter-spacing: 11px;
 	padding-left: 26.7px;
 	padding-right: 26.7px;
 	width: 53%;
 	height: 12%;
+	margin-top: 10px;
 }
- .rightside>form>button:hover{
- 	background:#fff;
- 	color: #000;
+ .newsletter>form>button:hover{
+ 	background:#000;
+ 	color: #fff;
  	-moz-transition: all .3s ease-in;
     -o-transition: all .3s ease-in;
     -webkit-transition: all .3s ease-in;
@@ -1106,61 +1058,34 @@ padding-left: 0px;
 .newslettercontent{
 	margin-bottom: 90%;
 }
-.rightside>form>button{
+.newsletter>form>button{
 	left:0%;
 	top:48%;
 	font-size: 31.5px;
 	margin-left: 10%;
 	width: 80%;
 }
- .leftside>img{
- 		transform:rotate(90deg);
- 		width: 100%;
- 		margin-left: 0%;
- 		margin-top:30%;
- 	}
-.leftside>h1{
-	font-size: 13px;
-	letter-spacing: 4px;
-	text-align: center;
-	top:14%;
-	left: 26%;
-}
-.leftside>p{
-	font-size: 12px;
-	top:25%;
-	left: 23%;
-	width: 55%!important;
-}
-.rightside{
+
+.newsletter{
 left:0;
 top:90%;
 }
-.rightside>form>input{
+.newsletter>form>input{
 width: 80%;
 margin-left: 10%;
 left: 0%;
 }
 }
  @media screen and (max-width: 460px){
- 	.rightside>form>button{
+ 	.newsletter>form>button{
  		font-size: 26px;
  	}
  }
 @media screen and (max-width:1200px){
-	.leftside>h1{
-		font-size: 16px;
-		top:25%;
-	}
-	.leftside>p{
-		font-size: 14px;
-		top:38%;
-		width: 30%;
-	}
-	.rightside>form>input{
+	.newsletter>form>input{
 		font-size: 20px;
 	}
-	.rightside>form>button{
+	.newsletter>form>button{
 	 	font-size: 27px;
 		letter-spacing: 3px;
 	}
@@ -1505,7 +1430,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 	background: #383756;
   }
   .main3{
-	background: #f3625f;
+	background: #CF530B;
   }
   .main4{
 	background: #E3B12A;
@@ -1554,7 +1479,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 	  background: url();
 	}
 	.main3 .thumb{
-	  background: url();
+	  background: url(../image/anveshana.jpeg);
 	}
 	.main4 .thumb{
 	  background: url(../image/TOPSAT12.png);
@@ -1648,7 +1573,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 	background: #504e77;
 }
 .main3 .maineventbutton{
-	background: #ec8382;
+	background: rgb(221, 120, 62);
 }
 .main4 .maineventbutton{
 	background: #ffcd43;
