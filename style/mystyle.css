@@ -26,8 +26,7 @@
 list-style-type: none;
 display: inline-block;
 margin: 0px;
-padding-left: 11.2%;
- 
+padding-left: 10.2%;
 }
 .socialicon>li{
 float: left;
@@ -266,7 +265,7 @@ padding-left: 5%;
 #navbarontop{
 	 padding-left: 0px;
 	padding-top: 26px; 
-	height: 250px;
+	height: 100%;
 }
 #navbarontop>li>a{
 	margin-left: 0px;
@@ -311,7 +310,7 @@ float: right;
 #navbarontop{
 	 padding-left: 0px;
 	padding-top: 40px; 
-	height: 250px;
+	height: 100%;
 }
 #navbarontop>li>a{
 	margin-left: 0px;
