@@ -1583,4 +1583,13 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 	box-shadow: 0 20px 50px 0 rgba(0,0,0,0.19);
 	text-underline-position: auto;
   }
-  
+
+/* Contact Us Form */
+
+.contactusform{
+	width: 53%;
+	height: 500px;
+	border: none;
+	left: 23.5%;
+	position: relative;
+}
