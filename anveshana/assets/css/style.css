@@ -360,12 +360,12 @@ html,body{
 	 border: 1px solid #fff;
 }
 .single-slide-item.slide-1 {
-	background-image:url(../../assets/images/banner/banner1.jpg);
+	background-image:url(../../assets/images/banner/togethere.png);
 	position:relative;
 	z-index:1;
 }
 .single-slide-item.slide-2 {
-	background-image:url(../../assets/images/banner/banner2.jpg);
+	background-image:url(../../assets/images/banner/leadership-team-building.jpg);
 	position:relative;
 	z-index:1;
 }
@@ -539,7 +539,7 @@ html,body{
     margin-top: 32px;
     margin-bottom: 27px;
 }
-.we-do-topics h2 a{
+.we-do-topics h2{
 	color:#44454f;
 	font-size:20px;
 }/* we-do-info */
@@ -641,18 +641,20 @@ html,body{
 	-o-transition:.5s;
     transition: .5s;
 }
-.service-txt h2 a{
+.service-txt h2{
 	color:#44454f;	
 	font-size:24px;
 	font-family: 'Playfair Display', serif;
 	padding: 47px 0 25px;
 }
-.service-txt p {
+.service-txt p{
 	color:#756c6a;	
 	font-size:16px;
 	font-family: 'Poppins', sans-serif;
 	line-height: 1.67;
+	padding-bottom: 20px;
 }
+
 a.service-btn,
 a:active.service-btn,
 a:hover.service-btn,
