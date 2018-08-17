@@ -894,6 +894,7 @@ a:focus.service-btn{
 	height: 352px;
 	background-size: cover;
 	background-position: center;
+	margin-top: 10px;
 	-webkit-transition: 0.5s ease-in-out;
     -moz-transition: 0.5s ease-in-out;
     -ms-transition: 0.5s ease-in-out;
@@ -907,16 +908,28 @@ a:focus.service-btn{
 /*team-box-bg*/
 
 .team-box-bg-1{
-	background: url(../../assets/images/team/ZeoSpec.jpg) no-repeat;
+	background: url(../../assets/images/team/balaji.jpg) no-repeat;
 }
 .team-box-bg-2{
-	background: url(../../assets/images/team/ZeoSpec.jpg) no-repeat;
+	background: url(../../assets/images/team/manu.jpg) no-repeat;
 }
 .team-box-bg-3{
-	background: url(../../assets/images/team/ZeoSpec.jpg) no-repeat;
+	background: url(../../assets/images/team/naveen.jpeg) no-repeat;
 }
 .team-box-bg-4{
-	background: url(../../assets/images/team/ZeoSpec.jpg) no-repeat;
+	background: url(../../assets/images/team/ayush.jpg) no-repeat;
+}/*team-box-bg*/
+.team-box-bg-5{
+	background: url(../../assets/images/team/aravind.jpg) no-repeat;
+}/*team-box-bg*/
+.team-box-bg-6{
+	background: url(../../assets/images/team/shashi.jpeg) no-repeat;
+}/*team-box-bg*/
+.team-box-bg-7{
+	background: url(../../assets/images/team/rachel.jpeg) no-repeat;
+}/*team-box-bg*/
+.team-box-bg-8{
+	background: url(../../assets/images/team/arihant.jpg) no-repeat;
 }/*team-box-bg*/
 
 
@@ -957,7 +970,7 @@ a.learn-btn,
 a:hover.learn-btn,
 a:focus.learn-btn,
 a:active.learn-btn{
-    color: #CF530B;
+    color: rgb(11, 161, 207);
     font-size:12px;
 	font-family: 'Lato', sans-serif;
 	font-weight: 700;
@@ -1267,7 +1280,7 @@ a.learn-btn,
 a:hover.learn-btn,
 a:focus.learn-btn,
 a:active.learn-btn{
-    color: #CF530B;
+    color: #ffffff;
     font-size:12px;
 	font-family: 'Lato', sans-serif;
 	font-weight: 700;
