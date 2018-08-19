@@ -1000,6 +1000,7 @@ padding-left: 0px;
 	border-radius: 0;
 	width: 53%;
 	padding: 0px;
+	margin-bottom: 20px;
 	z-index: 99;
 }
 #subemail:focus{
@@ -1041,7 +1042,6 @@ padding-left: 0px;
 	padding-right: 26.7px;
 	width: 53%;
 	height: 12%;
-	margin-top: 10px;
 }
  .newsletter>form>button:hover{
  	background:#000;
@@ -1397,6 +1397,14 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 }
 
 .alert{
+	text-align: center;
+	padding:10px;
+	background:#79c879;
+	color:#fff;
+	margin-bottom:10px;
+	display:none;
+  }
+  .projectalert{
 	text-align: center;
 	padding:10px;
 	background:#79c879;
