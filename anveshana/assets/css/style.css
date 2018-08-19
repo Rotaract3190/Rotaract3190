@@ -160,10 +160,7 @@ html,body{
 .header-right li a:hover{
 	color:#CF530B;
 }
-.reg a {
-    margin-right: 5px;
-    margin-left: 5px;
-}
+
 
 /* social-icon */
 .social-icon{
@@ -176,24 +173,6 @@ html,body{
 }/* social-icon */
 
 /* header-right */
-
-/* modal 
---------------------*/
-.modal-header {
-    border-bottom: none;
-}
-.modal-title {
-    font-size: 30px;
-    font-weight: 500;
-    color: #eb1b33;
-}
-.lg-frm button,
-.sm-frm button {
-    margin-top: 25px;
-    background: transparent;
-    border-color: #eb1b33;
-    color: #eb1b33;	
-}
 /*-------------------------------------
 		3. Menu
 --------------------------------------*/
@@ -672,77 +651,6 @@ a:focus.service-btn{
 	opacity: 1;
 }
 
-/*-------------------------------------
-		7. Statistics
---------------------------------------*/
-.statistics{
-	position:relative;
-	background:url(../../assets/images/counter/counter-banner.jpg)no-repeat;
-	background-position:center;
-	background-size:cover;
-	padding: 98px 0 81px;
-}
-.statistics:before{
-	position:absolute;
-	content:'';
-	background: rgba(207, 83, 11, 0.8);
-	height:100%;
-	width:100%;
-	top:0;
-	left:0;
-}
-/* single-ststistics-box */
-.single-ststistics-box {
-    display: flex;
-    margin-bottom:30px;
-	height: 75px;
-}
-/* single-ststistics-box */
-.statistics-content {
-    margin-left: 28px;
-}
-.statistics-content .counter{
-	color:#fff;
-	font-size:32px;
-	font-family: 'Poppins', sans-serif;
-}
-.statistics-content h3{
-	color:#fff;
-	font-size:20px;
-	text-transform:capitalize;
-	font-family: 'Poppins', sans-serif;
-	margin-top: 9px;
-	line-height: 1.5;
-}
-
-/*-------------------------------------
-		8. Project
---------------------------------------*/
-.project{
-	padding: 117px 0 109px;
-}
-.project-details{
-	
-}
-.project-content {
-    margin-top:62px;
-}
-
-/* project-header  */
-.project-header h2{
-	color: #44454f;
-	font-size: 30px;
-	font-family: 'Playfair Display', serif;
-	font-weight: 700;
-}
-.project-header p{
-	color: #888;
-	font-size: 16px;
-	font-family: 'Poppins', sans-serif;
-	max-width:470px;
-    margin-top: 32px;
-}
-/* project-header  */
 
 /* clear fix */
 .isotope:after {
