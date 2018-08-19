@@ -1121,8 +1121,8 @@ a:active.learn-btn{
 }
 .testemonial .owl-carousel .owl-item img {
     display: inline-block;
-    width:100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     line-height: 100px;
     border-radius: 50%;
     border: 2px solid #CF530B;
