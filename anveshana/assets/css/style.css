@@ -915,6 +915,7 @@ a:active.learn-btn{
 --------------------------------------*/
 .pricing{
 	padding:115px 0 78px;
+	background: #faad89;
 }
 .pricing-content {
     padding-top: 105px;
@@ -1232,6 +1233,10 @@ a:active.learn-btn{
 	background-position:center;
 	background-size: cover;
 	position: relative;
+}
+label{
+	color: #fff;
+	font-size: 20px;
 }
 .contact:before{
 	background:rgba(253, 151, 92, 0.85);
@@ -2146,3 +2151,15 @@ a:active.learn-btn{
   display: block;
   font-size: 4.5rem;
 }
+
+
+
+.feedbackalert{
+	text-align: center;
+	font-size: 20px;
+	padding:10px;
+	background: #ffffff;
+	color: #CF530B;
+	margin-bottom:10px;
+	display:none;
+  }
