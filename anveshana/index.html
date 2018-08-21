@@ -169,7 +169,7 @@
 									<li class="smooth-menu"><a href="#about">About</a></li>
 									<li class="smooth-menu"><a href="#service">Why Anveshana?</a></li>
 									<li class="smooth-menu"><a href="#team">Trainers</a></li>
-									<li class="smooth-menu"><a href="#pricing">Register</a></li>
+									<li class="smooth-menu"><a href="#feedback">Feedback</a></li>
 									<li class="smooth-menu"><a href="#clients">Hosts</a></li>
 									<li class="smooth-menu"><a href="#contact">Contact</a></li>
 								</ul><!-- / ul -->
@@ -678,50 +678,139 @@
 			<!--team end-->
 			
 			<!--pricing start -->
-			<section id="pricing" class="pricing">
+			<section id="feedback" class="pricing">
 				<div class="container">
 					<div class="pricing-details">
-						<div class="section-header text-center">
-							<h2 class="price-head">Registration</h2>
+						
+						<div class="section-header contact-head  text-center">
+							<h2>Feedback</h2>
 							<p>
-								This is not just a Training, it is a Journey to discover true ROTARACTION. Block Your Dates, Fasten your seat belts and Get ready to Discover Your Potential to lead your Club.
+								Every bit of feedback helps us improve towards better ROTARACTION!!!.
 							</p>
 						</div><!--/.section-header-->
-						<div class="pricing-content">
-							<div class="row">
-								
-								<div class="col-md-12 col-sm-6">
-									<div class="pricing-box">
-										<div class="pricing-header">
-											<h2>ANVESHANA</h2>
-											<h3 class="packeg_p"><span><i class="fa fa-inr"></i></span>100</h3>
-											
-										</div><!--/.pricing-header-->
-										<ul class="plan-lists">
-											<li>Know your roles better</li>
-											<li>Meet your counterparts</li>
-											<li>Make new friends</li>
-											<li>Get inspired</li>
-											<li>Sharing of ideas</li>
-											<li>Plan your year</li>
-											<li>Explore the new you</li>
-											<li>Become a better leader</li>
-										</ul><!--/ul-->
-										
-										<div class="project-btn pricing-btn text-center">
-											<a href="https://ecaas.traknpay.in/view.php?id=13467"  target="_blank" class="project-view">Register Now</a>
-										</div><!--/.project-btn-->
-									</div><!--/.pricing-box-->
-								</div><!--/.col-->
-								
-							</div><!--/.row-->
-						</div><!--/.pricing-content-->
+						
+						<div class="single-contact-box">
+							<div class="contact-form">
+								<form name="anveshana_feedback" method="POST" netlify>												
+									
+									<div class="row">
+										<div class="col-sm-12 col-xs-12">
+											<div class="form-group">
+												<label for="avenue"><b>Select Your Avenue</b></label>
+												<select class="form-control" name="avenue" required>
+													<option value="">Select your Avenue</option>
+													<option value="President">President</option>
+													<option value="Secretary">Secretary</option>
+													<option value="Treasury">Treasury</option>
+													<option value="Sergeant At Arms">Sergeant At Arms</option>
+													<option value="Club Service">Club Service</option>
+													<option value="Community Service">Community Service</option>
+													<option value="Professional Development Service">Professional Development Service</option>
+													<option value="International Service">International Service</option>
+													<option value="PR and Editorial">PR and Editorial</option>
+													<option value="General Orientation">General Orientation</option>
+												</select>
+											</div><!--/.form-group-->
+										</div><!--/.col-->
+									</div><!--/.row-->
+									<div class="row">
+										<div class="col-sm-12">
+											<div class="form-group">
+												<label for="field1"><b>Is there anything else that could have been added as the part of the training content? If yes, please mention.</b></label>
+												<textarea class="form-control" name="field1" rows="2"></textarea>
+											</div><!--/.form-group-->
+										</div><!--/.col-->
+									</div><!--/.row-->
+									<div class="row">
+										<div class="col-sm-12">
+											<div class="form-group">
+												<label for="field2"><b>Is there any handout that you require? If yes, please mention</b></label>
+												<textarea class="form-control" name="field2" rows="1"></textarea>
+											</div><!--/.form-group-->
+										</div><!--/.col-->
+									</div><!--/.row-->
+									<div class="row">
+										<div class="col-sm-12">
+											<div class="form-group">
+												<label for="field3"><b>Overall remarks about the trainer</b></label>
+												<textarea class="form-control" name="field3" rows="2"></textarea>
+											</div><!--/.form-group-->
+										</div><!--/.col-->
+									</div><!--/.row-->
+									<div class="row">
+										<div class="col-sm-12">
+											<div class="form-group">
+												<label for="field4"><b>Overall remarks about the session</b></label>
+												<textarea class="form-control" name="field4" rows="2"></textarea>
+											</div><!--/.form-group-->
+										</div><!--/.col-->
+									</div><!--/.row-->
+									<div class="row">
+										<div class="col-sm-12">
+											<div class="form-group">
+												<label for="field5"><b>Overall remarks about Anveshana</b></label>
+												<textarea class="form-control" name="field5" rows="2"></textarea>
+											</div><!--/.form-group-->
+										</div><!--/.col-->
+									</div><!--/.row-->
+									<div class="row">
+										<div class="col-sm-12">
+											<div class="form-group">
+												<label for="field6"><b>Is there anything that can be added as a part of the event for the upcoming year(s)? If yes, please mention</b></label>
+												<textarea class="form-control" name="field6" rows="2"></textarea>
+											</div><!--/.form-group-->
+										</div><!--/.col-->
+									</div><!--/.row-->
+									<div class="row">
+											<div class="col-sm-12">
+												<div class="form-group">
+													<label for="email"><b>Please enter your email to get the URL to access the Trianing material</b></label>
+													<input class="form-control" type="email" name="email" id="feedbackemail" required></input>
+												</div><!--/.form-group-->
+											</div><!--/.col-->
+										</div><!--/.row-->
+									<div class="feedbackalert" id="feedbackalert"></div>
+									<div class="row">
+										<div class="col-sm-12">
+											<div class="single-contact-btn pull-right">
+												<button class="contact-btn" type="submit">send message</button>
+											</div><!--/.single-single-contact-btn-->
+										</div><!--/.col-->
+									</div><!--/.row-->
+								</form><!--/form-->
+							</div><!--/.contact-form-->
+						</div><!--/.single-contact-box-->
+						
 					</div><!--/.pricing-details-->
 				</div><!--/.container-->
 				
 			</section><!--/.pricing-->
 			<!--pricing end-->
 			
+			<script>
+					const scriptURL = 'https://script.google.com/macros/s/AKfycbyD4ExabXZ8mwcJRk-dmPY-_hJBOzczu0hIO_p5UvlGdaLVR9q4/exec'
+					const form = document.forms['anveshana_feedback']
+					form.addEventListener('submit', e => {
+						e.preventDefault()
+						fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+						.then(response => console.log('Success!', response))
+						.catch(error => console.error('Error!', error.message))
+						
+						var x = document.getElementById("feedbackemail").value;
+  						document.getElementById("feedbackalert").innerHTML = "Thank You for the FeedBack" + '<br><br>' + "The URL to the Training material will be sent to the following email: " + x ;
+						// Show alert
+						setTimeout(function(){
+							document.querySelector('.feedbackalert').style.display = 'block';
+							form.reset();
+						},500);
+						
+						// Hide alert after 3 seconds
+						setTimeout(function(){
+							document.querySelector('.feedbackalert').style.display = 'none';
+						},5000);      
+					})
+				</script>
+
 			<!-- testemonial Start -->
 			<section   class="testemonial">
 				<div class="container">
