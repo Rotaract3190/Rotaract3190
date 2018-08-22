@@ -190,11 +190,26 @@
 		
 		<div class="newsletter">
 			<form name="project_submission">
-				<input type="text" name="title"  placeholder="PROJECT TITLE" required>
-				<input type="text" name="club" placeholder="HOST CLUB" required>
-				<input type="tel" name="phone" pattern="[7-9]{1}[0-9]{9}" placeholder="PHONE NUMBER" required>
-				<input type="email" name="email" placeholder="EMAIL" required>
-				<input type="url" name="drivelink"  placeholder="Drive Link to Project Report & Photos" required>
+				<div class="col-lg-12 text-center">
+					<h3 class="text-muted">Title of the Project</h3>
+				</div>
+				<input type="text" name="title" required>
+				<div class="col-lg-12 text-center">
+					<h3 class="text-muted">Host Club</h3>
+				</div>
+				<input type="text" name="club" required>
+				<div class="col-lg-12 text-center">
+					<h3 class="text-muted">Enter your Phone Number</h3>
+				</div>
+				<input type="tel" name="phone" pattern="[7-9]{1}[0-9]{9}" required>
+				<div class="col-lg-12 text-center">
+					<h3 class="text-muted">Enter your Email ID</h3>
+				</div>
+				<input type="email" name="email" required>
+				<div class="col-lg-12 text-center">
+					<h3 class="text-muted">Enter the Drive Link to Project Report & Photos</h3>
+				</div>
+				<input type="url" name="drivelink" required>
 				<div class="projectalert">Thank You</div>
 				<button type="submit">SUBMIT</button>
 			</form>
