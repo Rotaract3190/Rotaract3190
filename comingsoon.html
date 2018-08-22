@@ -173,56 +173,23 @@
 			</div>
 		</div>
 	</div>
-	<!-- Project Submission -->
+	<!-- content -->
 	<div class="allcontain"> 
 		<div class="latestcars">
-			<h1 class="text-center">&bullet; PROJECT SUBMISSION &bullet;</h1>
+			<h1 class="text-center">&bullet; COMMING SOON &bullet;</h1>
 		</div>
 		<section class="bg-light">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-12 text-center">
-						<h3 class="section-subheading text-muted">The projects submitted will be evaluated, selected projects will be featured on the landing page of Rotaract District 3190 official webiste, blog and email newsletter. Also will be archieved under best projects section.</h3>
+						<h3 class="section-subheading text-muted">Stay tuned</h3>
 					</div>
 				</div>
 			</div>
 		</section>
-		
-		<div class="newsletter">
-			<form name="project_submission">
-				<input type="text" name="title"  placeholder="PROJECT TITLE" required>
-				<input type="text" name="club" placeholder="HOST CLUB" required>
-				<input type="tel" name="phone" pattern="[7-9]{1}[0-9]{9}" placeholder="PHONE NUMBER" required>
-				<input type="email" name="email" placeholder="EMAIL" required>
-				<input type="url" name="drivelink"  placeholder="Drive Link to Project Report & Photos" required>
-				<div class="projectalert">Thank You</div>
-				<button type="submit">SUBMIT</button>
-			</form>
-		</div>
 	</div>
-</div> 
-
-<script>
-	const scriptURL = 'https://script.google.com/macros/s/AKfycbyxd-raCDdVt_Gk2DoINyQNnaoYIxTZL8CSIAhuoP3MWCZCM0PY/exec'
-	const form = document.forms['project_submission']
-	form.addEventListener('submit', e => {
-		e.preventDefault()
-		fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-		.then(response => console.log('Success!', response))
-		.catch(error => console.error('Error!', error.message))
-		// Show alert
-		setTimeout(function(){
-			document.querySelector('.projectalert').style.display = 'block';
-			form.reset();
-		},500);
-		
-		// Hide alert after 3 seconds
-		setTimeout(function(){
-			document.querySelector('.projectalert').style.display = 'none';
-		},3000);      
-	})
-</script>
-<!-- bootom menu -->
+</div>
+<!-- ______________________________________________________Bottom Menu ______________________________-->
 <div class="allcontain">
 	<div class="bottommenu">
 		<div class="bottomlogo">
@@ -273,7 +240,6 @@
 <script type="text/javascript" src="source/js/myscript.js"></script> 
 <script type="text/javascript" src="source/bootstrap-3.3.6-dist/js/jquery.1.11.js"></script>
 <script type="text/javascript" src="source/bootstrap-3.3.6-dist/js/bootstrap.js"></script>
-
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122171689-1"></script>
 <script>
