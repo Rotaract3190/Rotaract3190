@@ -2,7 +2,7 @@
 Theme Name: GARAGE
 Author: Web Domus ITALIA
 Author URI: http://www.webdomus.net/
-Description: GARAGE a multi-purpose HTML5 template built with latest Bootstrap framework. It offers flexible solutions, responsive, well documented and comes packed with tons of feature and options which they can be easily customized! It is a perfect solution for all kinds of businesses from small businesses to startups and bloggers.
+Description: GARAGE a multi-purpose HTML5 template built with latest Bootstrap framework. It offers flexible solutions, responsive, well documented and comes packed with tons of feature and options which they can be easily customized! It is a perfect solution for all kinds of businesses from small businesses to startups and topprojectgers.
 Version: 1.0.0
 License:  GARAGE template is under Creative Commons Attribution 4.0 International License.
 Template: GARAGE
@@ -234,6 +234,8 @@ Template: GARAGE
 }
 .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover{
 	background-color: #fff;
+	border-bottom: 2px solid #C59E47;
+	padding-left: 3px;
 }
 .dropdown.open .dropdown-menu {
 	max-height: 200px;
@@ -1635,3 +1637,109 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 	left: 23.5%;
 	position: relative;
 }
+
+/* project */
+
+
+.topproject-item {
+	background-color: #fff;
+	border-radius: 4px;
+	margin-bottom: 40px;
+	margin-left: 15px;
+	margin-right: 15px;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+	-webkit-transition: all 300ms ease-in-out;
+	-moz-transition: all 300ms ease-in-out;
+	transition: all 300ms ease-in-out;
+  }
+  
+  .topproject-item .topproject-image {
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+  }
+  
+  .topproject-item .topproject-image img {
+	background: #000;
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-ms-transform: scale(1);
+	-o-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: all 300ms ease-in-out;
+	-moz-transition: all 300ms ease-in-out;
+	transition: all 300ms ease-in-out;
+  }
+  
+  .topproject-item .tag {
+	position: absolute;
+	text-transform: uppercase;
+	top: -18px;
+	left: 20px;
+	padding: 4px 27px;
+	background-color: white;
+	color: #E91E63;
+	border-radius: 4px;
+	display: block;
+	font-size: 14px;
+	font-weight: 500;
+	box-shadow: 0px 3px 16px rgba(35, 31, 32, 0.15);
+  }
+  
+  .topproject-item .descr {
+	padding: 30px 15px;
+	color: #212121;
+	position: relative;
+  }
+  
+  .topproject-item .descr h3 {
+	line-height: 30px;
+	margin-bottom: 15px;
+  }
+  
+  .topproject-item .descr h3 a {
+	font-weight: 400;
+	text-align: center;
+	font-size: 25px;
+	color: #212121;
+	-webkit-transition: all 300ms ease-in-out;
+	-moz-transition: all 300ms ease-in-out;
+	transition: all 300ms ease-in-out;
+  }
+  
+  .topproject-item .descr h3 a:hover {
+	color: #E91E63;
+  }
+  
+  .topproject-item .descr .meta-tags {
+	margin-bottom: 10px;
+  }
+  
+  .topproject-item .descr .meta-tags span {
+	color: #999;
+	margin-right: 8px;
+  }
+  
+  .topproject-item .descr .meta-tags span a {
+	color: #999;
+	margin-left: 8px;
+  }
+  
+  .topproject-item .descr .meta-tags span a:hover {
+	color: #E91E63;
+  }
+  .topproject-item .descr p {
+	color: #999;
+  }
+  
+  .topproject-item:hover {
+	box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+  }
+  
+  .topproject-item:hover .topproject-image img {
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	transform: scale(1.1);
+  }
