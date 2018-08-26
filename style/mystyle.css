@@ -235,7 +235,6 @@ Template: GARAGE
 .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover{
 	background-color: #fff;
 	border-bottom: 2px solid #C59E47;
-	padding-left: 3px;
 }
 .dropdown.open .dropdown-menu {
 	max-height: 200px;
