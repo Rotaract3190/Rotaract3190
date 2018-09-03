@@ -1730,6 +1730,12 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   .topproject-item .descr p {
 	color: #999;
   }
+  .topproject-item .descr a {
+	color: #999;
+  }
+  .topproject-item .descr a:hover {
+	color: #E91E63;
+  }
   
   .topproject-item:hover {
 	box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
