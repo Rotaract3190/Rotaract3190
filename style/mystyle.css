@@ -1470,7 +1470,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 	background: #33a571;
 }
 .main2{
-	background: #383756;
+	background: #091F51;
 }
 .main3{
 	background: #CF530B;
@@ -1519,7 +1519,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 		background: url(../image/rotaasia19.jpeg);
 	}
 	.main2 .thumb{
-		background: url();
+		background: url(../image/ICGF.jpeg);
 	}
 	.main3 .thumb{
 		background: url(../image/anveshana.jpeg);
@@ -1613,7 +1613,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 	background: #5dc596;
 }
 .main2 .maineventbutton{
-	background: #504e77;
+	background: rgb(17, 49, 122);
 }
 .main3 .maineventbutton{
 	background: rgb(221, 120, 62);
