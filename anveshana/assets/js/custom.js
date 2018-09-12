@@ -216,6 +216,7 @@ x = setInterval(function() {
 $(document).ready(function() {
 	
 	var url = 'https://blog.rotaract3190.org/feed.xml';
+
 	
 	feednami.load(url,function(result){
 		if(result.error) {
