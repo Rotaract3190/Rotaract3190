@@ -1467,7 +1467,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 	position: relative;
 }
 .main1{
-	background: #33a571;
+	background: #58a9f5;
 }
 .main2{
 	background: #091F51;
@@ -1516,7 +1516,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 	}
 	
 	.main1 .thumb{
-		background: url(../image/rotaasia19.jpeg);
+		background: url(../image/rotaasia19_2.jpeg);
 	}
 	.main2 .thumb{
 		background: url(../image/ICGF.jpeg);
@@ -1610,7 +1610,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 	transition-duration: 0.4s;
 }
 .main1 .maineventbutton{
-	background: #5dc596;
+	background: #4782b9;
 }
 .main2 .maineventbutton{
 	background: rgb(17, 49, 122);
