@@ -223,15 +223,17 @@ $(document).ready(function() {
 			console.log(result.error);
 		} else {
 			var entries = result.feed.entries;
-			if(entries.length > 2){
+			var blogsectiontext = "";
+			if(entries.length > 1){
 				for(var i = 0; i < 2; i++){
 					var entry = entries[i];
 
-					document.getElementById("blogsection").innerHTML = '<div class="hm-para-news">'+'<a href="'+entry.link+'" target="_blank">'+entry.title+'</a>'+'<span style="display: none;">'+entry.pubDate+'</span></div><div class="footer-line"><div class="border-bottom"></div></div>';
-					
+					blogsectiontext += '<div class="hm-para-news">'+'<a href="'+entry.link+'" target="_blank">'+entry.title+'</a>'+'<span style="display: none;">'+entry.pubDate+'</span></div><div class="footer-line"><div class="border-bottom"></div></div>';
+
 					console.log(entry.title);
 					console.dir(entry);
 				}
+								document.getElementById("blogsection").innerHTML = blogsectiontext;
 			} else {
 				for(var i = 0; i < 1; i++){
 					var entry = entries[i];
