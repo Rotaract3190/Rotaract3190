@@ -717,7 +717,7 @@ button:focus {
 
 
 #mu-speakers {
-	background-color: #fff;
+	background-color: #f8f8f8;
 	display: inline;
 	float: left;
 	width: 100%;
@@ -1157,7 +1157,7 @@ button:focus {
 /*--------------------*/
 
 #mu-contact {
-	background-color: #f8f8f8;
+	background-color: #fff;
 	display: inline;
 	float: left;
 	width: 100%;
