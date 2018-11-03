@@ -1023,6 +1023,25 @@ Template: GARAGE
 	margin-bottom: 20px;
 	z-index: 99;
 }
+.newsletter>form>textarea{
+	position: relative;
+	top:34%;
+	left:25%;
+	font-family: "OpenSans-Light";
+	font-size: 26.8px;
+	color:#000;
+	background: none;
+	background-color: none;
+	border-top: none;
+	border-left: none;
+	border-right:none;
+	border-bottom: 1px solid #000;	
+	border-radius: 0;
+	width: 53%;
+	padding: 0px;
+	margin-bottom: 20px;
+	z-index: 99;
+}
 #subemail:focus{
 	border-bottom: 1px solid #2e2626;
 	box-shadow: inset 0 0px;
