@@ -1,4 +1,3 @@
-
 /*=======================================
 Template Design By MarkUps	
 Author URI : http://www.markups.io/
@@ -6,9 +5,12 @@ Author URI : http://www.markups.io/
 
 .mu-hero-overlay,
 .mu-video-overlay {
-	background-color: #EE3268;/* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #64b3f4, #EE3268);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #64b3f4, #EE3268); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background-color: #EE3268;
+	/* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #64b3f4, #EE3268);
+	/* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #64b3f4, #EE3268);
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 
@@ -44,9 +46,9 @@ Author URI : http://www.markups.io/
 .mu-navbar .navbar-toggle,
 .mu-navbar .navbar-toggle:hover,
 .mu-navbar .navbar-toggle:focus,
-.navbar-default .navbar-nav > .active > a, 
-.navbar-default .navbar-nav > .active > a:focus, 
-.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover,
 .mu-schedule-menu li a:hover,
 .mu-schedule-menu li a:focus,
 .mu-schedule-menu li.active a,
@@ -63,8 +65,8 @@ Author URI : http://www.markups.io/
 
 .mu-contact-form .form-control:focus,
 .mu-schedule-menu li a {
-	border: 1px solid #EE3268;    
-} 
+	border: 1px solid #EE3268;
+}
 
 .mu-send-msg-btn,
 .mu-send-msg-btn:focus,
@@ -75,7 +77,7 @@ Author URI : http://www.markups.io/
 	background-color: #EE3268;
 }
 
-.mu-faq-content .panel-default > .panel-heading + .panel-collapse > .panel-body {
+.mu-faq-content .panel-default>.panel-heading+.panel-collapse>.panel-body {
 	border-top-color: #EE3268;
 
 }
