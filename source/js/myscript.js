@@ -90,7 +90,7 @@ $(document).ready(function() {
 			var entries = result.feed.entries;
 			var blogsectiontext = "";
 				// for(var i = 0; i < entries.length; i++)
-				for(var i = 0; i < 6; i++){
+				for(var i = 0; i < 3; i++){
 					var entry = entries[i];
 					blogsectiontext += '<div class="col-lg-4 col-md-6 col-xs-12"><div class="topproject-item"><div class="descr"><hr><h3 class="title"><a href="'+entry.link+'" target="_blank">'+entry.title+'</a></h3><a href="'+entry.link+'" target="_blank">Read More &Sc;</a></div></div></div>';
 
