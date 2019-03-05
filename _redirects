@@ -1,4 +1,4 @@
 # Redirect default Netlify subdomain to primary domain
 https://rotarct3190.netlify.com/* https://rotaract3190.org/:splat 301!
-https://rotarct3190.com/prayukthi/* https://rotaract3190.org/samvrukthi/:splat 301!
+https://rotaract3190.org/prayukthi/* https://rotaract3190.org/samvrukthi/:splat 301!
 
