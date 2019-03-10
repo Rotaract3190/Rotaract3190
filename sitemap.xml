@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://rotaract3190.org/</loc>
-    <lastmod>2018-12-23</lastmod>
+    <lastmod>2019-03-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.00</priority>
   </url>
@@ -74,6 +74,12 @@
   </url>
   <url>
     <loc>https://rotaract3190.org/dhivara</loc>
+    <lastmod>2019-01-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://rotaract3190.org/eunice/</loc>
     <lastmod>2019-01-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.80</priority>
