@@ -1721,6 +1721,10 @@ ul.social-buttons li a:hover {
 }
 
 .main7 {
+	background: #C6086C;
+}
+
+.main8 {
 	background: #FE871D;
 }
 
@@ -1786,6 +1790,10 @@ ul.social-buttons li a:hover {
 	}
 
 	.main7 .thumb {
+		background: url(../image/rotaasia19_3.jpeg);
+	}
+
+	.main8 .thumb {
 		background: url(../image/eunice.jpeg);
 	}
 
@@ -1906,6 +1914,10 @@ ul.social-buttons li a:hover {
 }
 
 .main7 .maineventbutton {
+	background: #f04da4;
+}
+
+.main8 .maineventbutton {
 	background: #df7631;
 }
 
