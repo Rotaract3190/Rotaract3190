@@ -1697,21 +1697,40 @@ ul.social-buttons li a:hover {
 }
 
 .main1 {
-	background: #58a9f5;
+	background: #FEDE33;
 }
 
 .main2 {
-	background: #1B1941;
-}
-
-.main3 {
-	background: #FE871D;
-}
-
-.main4 {
 	background: #E3B12A;
 }
 
+.main3 {
+	background: #CF5309;
+}
+
+.main4 {
+	background: #091F51;
+}
+
+.main5 {
+	background: #0F37B9;
+}
+
+.main6 {
+	background: #1B1941;
+}
+
+.main7 {
+	background: #C6086C;
+}
+
+.main8 {
+	background: #FE871D;
+}
+
+.main9 {
+	background: #6431c4;
+}
 
 @media only screen and (min-width:320px) {
 	.m-event {
@@ -1750,19 +1769,39 @@ ul.social-buttons li a:hover {
 	}
 
 	.main1 .thumb {
-		background: url(../image/rotaasia19_2.jpeg);
+		background: url(../image/aarushi.jpeg);
 	}
 
 	.main2 .thumb {
-		background: url(../image/dhivara2.jpeg);
+		background: url(../image/TOPSAT12.png);
 	}
-
+	
 	.main3 .thumb {
-		background: url(../image/eunice.jpeg);
+		background: url(../image/anveshana.jpeg);
 	}
 
 	.main4 .thumb {
-		background: url(../image/TOPSAT12.png);
+		background: url(../image/ICGF.jpeg);
+	}
+
+	.main5 .thumb {
+		background: url(../image/rotafest2018.jpeg);
+	}
+
+	.main6 .thumb {
+		background: url(../image/dhivara2.jpeg);
+	}
+
+	.main7 .thumb {
+		background: url(../image/rotaasia19_3.jpeg);
+	}
+
+	.main8 .thumb {
+		background: url(../image/eunice.jpeg);
+	}
+
+	.main9 .thumb {
+		background: url(../image/milana_og.png);
 	}
 
 	.m-event .thumb {
@@ -1858,20 +1897,41 @@ ul.social-buttons li a:hover {
 }
 
 .main1 .maineventbutton {
-	background: #4782b9;
+	background: #686034;
 }
 
 .main2 .maineventbutton {
-	background: #C75A8B;
+	background: #ffcd43;
 }
 
 .main3 .maineventbutton {
-	background: rgb(223, 118, 49);
+	background: rgb(207, 110, 53);
 }
 
 .main4 .maineventbutton {
-	background: #ffcd43;
+	background: #FC001A;
 }
+
+.main5 .maineventbutton {
+	background: #FDB00D;
+}
+
+.main6 .maineventbutton {
+	background: #C75A8B;
+}
+
+.main7 .maineventbutton {
+	background: #f04da4;
+}
+
+.main8 .maineventbutton {
+	background: #df7631;
+}
+
+.main9 .maineventbutton {
+	background: #ff6cd3;
+}
+
 
 .maineventbutton:hover {
 	box-shadow: 0 20px 50px 0 rgba(0, 0, 0, 0.19);
