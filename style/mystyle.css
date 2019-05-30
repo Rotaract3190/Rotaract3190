@@ -1728,6 +1728,9 @@ ul.social-buttons li a:hover {
 	background: #FE871D;
 }
 
+.main9 {
+	background: #6431c4;
+}
 
 @media only screen and (min-width:320px) {
 	.m-event {
@@ -1795,6 +1798,10 @@ ul.social-buttons li a:hover {
 
 	.main8 .thumb {
 		background: url(../image/eunice.jpeg);
+	}
+
+	.main9 .thumb {
+		background: url(../image/milana_og.png);
 	}
 
 	.m-event .thumb {
@@ -1921,6 +1928,9 @@ ul.social-buttons li a:hover {
 	background: #df7631;
 }
 
+.main9 .maineventbutton {
+	background: #ff6cd3;
+}
 
 
 .maineventbutton:hover {
