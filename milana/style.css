@@ -2746,3 +2746,7 @@ input:required {
         margin-right: 3px; }
 
 /*# sourceMappingURL=style.css.map */
+
+.success_fail_info {
+	display: none;
+}
