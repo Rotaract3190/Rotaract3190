@@ -1,4 +1,7 @@
 .DS_Store
-gallery/single.html
-milana2020/index_master_.html
+.bundle
+.jekyll-cache
+Gemfile.lock
+_site
+vendor
 
