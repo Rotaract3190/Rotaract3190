@@ -4,6 +4,10 @@
       description: Indicative guide for the Intallation of Rotaract Clubs.
       preview: /resources/documentimg.png
       file: /resources/Club_Installation_Guide.pdf
+    - title: DRR Official Visit Guide
+      description: Guide for the DRR Official Visits 2019 - 2020.
+      preview: /resources/documentimg.png
+      file: /resources/DRROfficialVisitGuide.pdf
 
 - group_name: Profiles
   items_list:
@@ -114,3 +118,22 @@
       description: White & Gold version Simplified Rotary Masterbrand
       preview: /resources/rotary_simple_white_gold.png
       file: /resources/rotary_simple_white_gold.png
+
+- group_name: Pratibha 2019
+  items_list:
+    - title: Pratibha 2019 - Blue
+      description: Blue version of Pratibha 2019 Logo
+      preview: /resources/pratibha_blue.png
+      file: /resources/pratibha_blue.png
+    - title: Pratibha 2019 - White
+      description: White version of Pratibha 2019 Logo
+      preview: /resources/pratibha_white.png
+      file: /resources/pratibha_white.png
+    - title: Pratibha 2019 - Blue (No RID 3190)
+      description: Blue version of Pratibha 2019 Logo without RID 3190 Branding
+      preview: /resources/pratibha_blue_woRID.png
+      file: /resources/pratibha_blue_woRID.png
+    - title: Pratibha 2019 - White (No RID 3190)
+      description: White version of Pratibha 2019 Logo without RID 3190 Branding
+      preview: /resources/pratibha_white_woRID.png
+      file: /resources/pratibha_white_woRID.png
