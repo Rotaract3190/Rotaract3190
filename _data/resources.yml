@@ -8,6 +8,22 @@
       description: Guide for the DRR Official Visits 2019 - 2020.
       preview: /resources/documentimg.png
       file: /resources/DRROfficialVisitGuide.pdf
+    - title: Rotaract Handbook
+      description: Learn the way of Rotaraction.
+      preview: /resources/documentimg.png
+      file: /resources/562_rotaract_handbook_en.pdf
+    - title: Standard Rotaract Club Constitution
+      description: Read more about the governing guidelines of Rotaract.
+      preview: /resources/documentimg.png
+      file: /resources/661_rotaract_club_standard_constitution_en.pdf
+    - title: Recommended Rotaract Club Bylaws
+      description: Form the guidelines for betterment of your club.
+      preview: /resources/documentimg.png
+      file: /resources/662_rotaract_club_recommended_bylaws_en.docx
+    - title: Know more
+      description: Here is everything you need to know about creating a strong Rotaract club.
+      preview: /resources/markofexcellence.png
+      file: https://www.rotary.org/en/get-involved/rotaract-clubs/details
 
 - group_name: Profiles
   items_list:
@@ -38,10 +54,29 @@
       description: White version of official Theme Logo
       preview: /resources/3190theme_white.png
       file: /resources/3190theme_white.png
+    - title: 3190 Theme Logo - Full White
+      description: White version of official Theme Logo
+      preview: /resources/3190theme_full_white.png
+      file: /resources/3190theme_full_white.png
     - title: 3190 Theme Logo - Red
       description: Red version of official Theme Logo
       preview: /resources/3190theme_red.png
       file: /resources/3190theme_red.png
+
+- group_name: Rotaract Masterbrand with RID 3190
+  items_list:
+    - title: Rotaract 3190 Masterbrand
+      description: Standard Version of Rotaract 3190 Masterbrand
+      preview: /resources/rotaract3190.png
+      file: /resources/rotaract3190.png
+    - title: Rotaract 3190 Masterbrand - White
+      description: White version of Rotaract 3190 Masterbrand
+      preview: /resources/rotaract3190_white.png
+      file: /resources/rotaract3190_white.png
+    - title: Rotaract 3190 Masterbrand - Black
+      description: Black version of Rotaract 3190 Masterbrand
+      preview: /resources/rotaract3190_black.png
+      file: /resources/rotaract3190_black.png
 
 - group_name: Mark of Excellence
   items_list:
