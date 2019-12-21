@@ -12,8 +12,8 @@ statistics:
     text: Number of volunteers
   - counter: 5963510
     icon: ion-ios-wallet
-    text: Total cash contributions
+    text: Total cash contributions (&#8377)
   - counter: 3588568
     icon: ion-ios-heart
-    text: Total in-kind contributions
+    text: Total in-kind contributions (&#8377)
  
