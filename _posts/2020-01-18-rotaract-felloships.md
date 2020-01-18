@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Rotaract Fellowship Registrations
+title: Rotaract Fellowship Survey
 author: Rotaract District Council 3190
 description: Sign-Up for Rotaract Fellowships of RID 3190
 ---
@@ -10,9 +10,9 @@ Official Launch and Enrollment would begin from February 2020 at Milana - Distri
 
 Kindly fill out these survey forms inorder to help us have a better understanding of what would be expected from you all 
 
-- Motorcycle Riders Fellowship: [Register](https://forms.gle/epFkDZ4md2VWiPtA7){:target="_blank"}
-- Photography Fellowship: [Register](https://forms.gle/L9sXE9SZpd9CDw27A){:target="_blank"}
-- Adventure and Fitness Fellowship: [Register](https://forms.gle/mX7MgdUXD3ks5v7E6){:target="_blank"}
+- Motorcycle Riders Fellowship: [Fill the form](https://forms.gle/epFkDZ4md2VWiPtA7){:target="_blank"}
+- Photography Fellowship: [Fill the form](https://forms.gle/L9sXE9SZpd9CDw27A){:target="_blank"}
+- Adventure and Fitness Fellowship: [Fill the form](https://forms.gle/mX7MgdUXD3ks5v7E6){:target="_blank"}
 
 For any queries contact
 
