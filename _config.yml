@@ -1,3 +1,5 @@
+timezone: Asia/Kolkata
+
 exclude:
   - "/vendor/"
   - "Gemfile"
