@@ -2,7 +2,7 @@
 layout: post
 title: Rotaract Fellowship Survey
 author: Rotaract District Council 3190
-description: Sign-Up for Rotaract Fellowships of RID 3190
+description: Fill the Survey forms for Rotaract Fellowships of RID 3190
 ---
 Rotaract Fellowships consist of members who share a common interest in recreational activities, sports, hobbies, or professions. Fellowships help you expand skills, foster vocational development, and enhance the Rotaract experience by exploring interests while developing connections with Clubs across the District.
 
