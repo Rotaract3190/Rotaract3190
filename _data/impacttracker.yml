@@ -4,10 +4,10 @@ details:
   lastupdate: 1 January 2020
 
 statistics:
-  - counter: 80376
+  - counter: 38504
     icon: ion-md-time
     text: Total volunteer hours
-  - counter: 38504
+  - counter: 80376
     icon: ion-ios-people
     text: Number of volunteers
   - counter: 5924485
