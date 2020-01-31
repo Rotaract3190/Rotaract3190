@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Rotaract Fellowship Groups
+title: Rotaract Fellowship Groups (Survey)
 author: Rtr. Raj Vamshi
 description: Fill the Survey forms for Rotaract Fellowships of RID 3190
 ---
