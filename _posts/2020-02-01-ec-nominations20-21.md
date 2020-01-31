@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Nominations for Executive Council 2020 – 2020
+title: Nominations for Executive Council 2020 – 2021
 author: Rtr. Raj Vamshi
 description: Submit your Nomanations to be part of Executive Council for RIY 2020 - 2021
 ---
