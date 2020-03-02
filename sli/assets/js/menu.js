@@ -14,6 +14,7 @@
 		content = document.querySelector( '.content-wrap' ),
 		openbtn = document.getElementById( 'open-button' ),
 		closebtn = document.getElementById( 'close-button' ),
+		closenav = document.getElementById( 'close-navitem' ),
 		isOpen = false;
 
 	function init() {
@@ -24,7 +25,10 @@
 		openbtn.addEventListener( 'click', toggleMenu );
 		if( closebtn ) {
 			closebtn.addEventListener( 'click', toggleMenu );
-		}		
+		}
+		if( closenav ) {
+			closenav.addEventListener( 'click', toggleMenu );
+		}
 	}
 
 	function toggleMenu() {
