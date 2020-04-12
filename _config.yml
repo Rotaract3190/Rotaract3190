@@ -13,7 +13,7 @@ keep_files:
   - ".gitignore"
 
 # Site settings
-title: Rotaract District 3190
+title: Rotaract 3190
 subtitle: "Serve 2 Achieve | TeamPanthers"
 description: "RI District 3190 comprises of 8 revenue making districts namely Bangalore, Tumkur, Ramanagara, Malavalli, Mandya, Kolar, Chittoor and Thirupathi with around 140 clubs comprising of over 8000 members"
 url: "https://rotaract3190.org" # the base hostname & protocol for your site
