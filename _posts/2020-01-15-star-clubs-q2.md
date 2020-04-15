@@ -2,7 +2,7 @@
 layout: post
 title: Star Clubs | Q2
 author: Rotaract District Council 3190
-description: Star Clubs recognitions for Quarter 
+description: Star Clubs recognitions for Quarter 2
 ---
 Dear Partners in Service,
 
