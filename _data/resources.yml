@@ -1,9 +1,13 @@
 - group_name: Circulars & Guides 
-  items_list:
+  items_list: DRROfficialVisitGuide(Online).pdf
     - title: Club Installation Guide
       description: Indicative guide for the Intallation of Rotaract Clubs.
       preview: /resources/documentimg.png
       file: /resources/Club_Installation_Guide.pdf
+    - title: DRR Official Visit Guide (Online)
+      description: Guide for the Online DRR Official Visits 2019 - 2020.
+      preview: /resources/documentimg.png
+      file: /resources/DRROfficialVisitGuide(Online).pdf
     - title: DRR Official Visit Guide
       description: Guide for the DRR Official Visits 2019 - 2020.
       preview: /resources/documentimg.png
