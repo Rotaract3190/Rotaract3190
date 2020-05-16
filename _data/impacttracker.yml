@@ -1,19 +1,19 @@
 details:
-  projects: 1214 
+  projects: 1913 
   since: 1 July 2019
-  lastupdate: 1 January 2020
+  lastupdate: 1 May 2020
 
 statistics:
-  - counter: 80376
+  - counter: 161083
     icon: ion-md-time
     text: Total volunteer hours
-  - counter: 38504
+  - counter: 68774
     icon: ion-ios-people
     text: Number of volunteers
-  - counter: 5924485
+  - counter: 7003927
     icon: ion-ios-wallet
     text: Total cash contributions (&#8377)
-  - counter: 4071293
+  - counter: 5148919
     icon: ion-ios-heart
     text: Total in-kind contributions (&#8377)
  
